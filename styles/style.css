@@ -13,7 +13,7 @@ body {
 /* shared styles */
 .primary-text {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 26px;
   color: #ffffff;
 }
@@ -96,6 +96,7 @@ body {
 .failure-info li {
   margin-bottom: 8px;
   color: rgba(68, 67, 67, 1);
+  font-weight: 300;
 }
 
 .failure-info li i {
@@ -168,3 +169,71 @@ body {
   color: #ffffff;
 }
 /* end mindset section */
+
+/* start footer section */
+.footer-container {
+  background-color: black;
+}
+.footer-content {
+  width: 71%;
+  max-width: 1140px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.footer-social {
+  width: 481px;
+}
+
+.social-text h3 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #f8f8f8;
+}
+
+form {
+  width: 325px;
+}
+
+.secondery-text {
+  font-size: 16px;
+  font-weight: 300px;
+  margin-top: 16px;
+  color: #ffffff;
+}
+
+.social-icons {
+  margin-top: 32px;
+}
+
+.social-icons img {
+  margin-right: 18px;
+}
+
+form h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 31px;
+}
+
+.footer-container form input[type="email"] {
+  padding: 22px 104px 22px 21px;
+  margin-bottom: 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-button {
+  background-color: #005fac;
+  color: #ffffff;
+}
+/* end footer section */
