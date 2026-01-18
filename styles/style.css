@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-  /* border: 1px solid red; */
+/* border: 1px solid red; */
 
 body {
   font-family: "Work Sans", sans-serif;
@@ -103,3 +103,43 @@ body {
 }
 
 /* end failure section */
+
+/* start plans section */
+.plans-content {
+  width: 71%;
+  max-width: 1140px;
+  margin: 70px auto 0;
+  text-align: center;
+}
+
+.plans-content h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: rgba(21, 20, 20, 1);
+}
+
+.plans-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-info img {
+  width: 92px;
+  margin-bottom: 24px;
+}
+
+.list-info h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: rgba(21, 20, 20, 1);
+}
+
+.list-info p {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgba(115, 114, 114, 1);
+}
+/* end plans sesction */
