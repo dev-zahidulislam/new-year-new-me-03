@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+  /* border: 1px solid red; */
+
 body {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
@@ -55,3 +57,49 @@ body {
   margin-top: 51px;
 }
 /* end banner section */
+
+/* start failure section */
+
+.failure-content {
+  width: 1072px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.failure-image img {
+  width: 600px;
+}
+
+.failure-info {
+  width: 416px;
+}
+
+.failure-info h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(21, 20, 20, 1);
+  margin-bottom: 24px;
+}
+
+.failure-info p {
+  color: rgba(68, 67, 67, 1);
+  margin-bottom: 16px;
+}
+
+.failure-info ul {
+  list-style-type: none;
+}
+
+.failure-info li {
+  margin-bottom: 8px;
+  color: rgba(68, 67, 67, 1);
+}
+
+.failure-info li i {
+  color: #16d887;
+}
+
+/* end failure section */
